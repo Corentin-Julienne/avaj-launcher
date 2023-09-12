@@ -1,7 +1,5 @@
 package flightsim.models.aircraft;
 
-package flightsim.models.aircraft;
-
 import flightsim.models.tower.WeatherProvider;
 import flightsim.models.tower.WeatherTower;
 
