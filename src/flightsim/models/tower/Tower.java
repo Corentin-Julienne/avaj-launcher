@@ -16,6 +16,7 @@ public class Tower {
 	}
 
 	protected void conditionChanged() {
-		// implement
+		// should be able to notify observers that the weather will actually change
+		
 	}
 }

@@ -7,6 +7,6 @@ public class JetPlane extends Aircraft {
 	}
 	
 	public void	updateConditions() {
-		// implement that
+		// implement that, should update the coordinates
 	}
 }
