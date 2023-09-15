@@ -16,7 +16,8 @@ public class Tower {
 	}
 
 	protected void conditionChanged() {
-		// should be able to notify observers that the weather will actually change
-		
+		for (int i = 0; i < observers.size(); i++) {
+			this.observers.get(i).updateConditions();
+		}
 	}
 }
